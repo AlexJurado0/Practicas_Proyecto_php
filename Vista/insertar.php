@@ -1,3 +1,4 @@
+<?php include_once '../Modelo/seguridad.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

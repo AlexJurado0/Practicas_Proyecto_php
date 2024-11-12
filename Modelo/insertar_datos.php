@@ -1,4 +1,4 @@
-<?php 
+<?php include_once '../Modelo/seguridad.php';
     session_start();
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         

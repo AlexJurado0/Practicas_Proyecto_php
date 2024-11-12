@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1 align="center">Bienvenido</h1>
-<a href="insertar.html" >Ingresar </a>
+<a href="insertar.php" >Ingresar </a>
     <?php
 //conexion con la base y seleccion de la basede datos
-$conexion = mysqli_connect("localhost","root","","proyectophp");
+include '../Modelo/Conexion.php';
 
 //ejecutamos la sentencia sql
 $result=mysqli_query($conexion, "select * from productos");
